@@ -1,0 +1,67 @@
+.navbar-background {
+  display: flex;
+  height: 100vh;
+  /* background-color: rgb(52, 105, 184); */
+  background: url("../assets/images/desktop/image-header.jpg");
+  background-repeat: no-repeat;
+  background-size: cover;
+}
+.navbar {
+  position: absolute;
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  height: 4rem;
+  width: 100%;
+  margin: 1rem auto;
+  padding: 2rem;
+}
+
+.navbar h1 {
+  display: flex;
+  letter-spacing: 2px;
+  color: white;
+  font-size: 30px;
+  font-weight: 900;
+}
+
+.items {
+  display: flex;
+  list-style: none;
+  align-items: center;
+  justify-content: center;
+  gap: 3rem;
+}
+
+.items li {
+  color: white;
+  align-items: center;
+  font-size: 18px;
+}
+
+.button {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  padding: 14px;
+  background-color: white;
+  letter-spacing: 1px;
+  color: black;
+  border-radius: 22px;
+  font-size: 14px;
+  border: none;
+}
+
+.title {
+  position: relative;
+  display: flex;
+  justify-content: center;
+  color: white;
+  align-items: center;
+  margin: 7rem auto;
+  height: 10rem;
+  width: 100%;
+  font-family: "Fraunces";
+  font-size: 50px;
+  letter-spacing: 3px;
+}

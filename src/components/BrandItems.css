@@ -1,0 +1,29 @@
+.brands {
+  display: grid;
+  height: 100vh;
+  justify-content: center;
+  align-items: center;
+  grid-template-columns: 1fr 1fr;
+  grid-template-areas:
+    "box1 box2"
+    "box3 box4";
+}
+
+.box1 {
+  grid-area: box1;
+  display: flex;
+  justify-content: center;
+  border: 2px solid red;
+}
+
+.box2 {
+  grid-area: box2;
+}
+
+.box3 {
+  grid-area: box3;
+}
+
+.box4 {
+  grid-area: box4;
+}
